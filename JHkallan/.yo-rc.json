@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "baseName": "JHkallan",
+    "packageName": "se.vrn.kallan",
+    "packageFolder": "se/vrn/kallan",
+    "authenticationType": "xauth",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useCompass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "enableTranslation": true,
+    "rememberMeKey": "19965593a31d8f8c8b93c9de402cf5c5fa1065fb"
+  }
+}
