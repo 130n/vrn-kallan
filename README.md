@@ -1,2 +1,2 @@
-# vrn-kallan
-Webportal for vetenskapsrorelsen
+README for JHkallan
+==========================
