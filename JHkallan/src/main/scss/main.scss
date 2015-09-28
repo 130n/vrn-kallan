@@ -1,8 +1,34 @@
 $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
+@import "custom_bootstrap";
 // bower:scss
-@import "bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+
+.carousel-column {
+    //margin-top: 20px;
+    //margin-bottom: 20px;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+        background-color: $gray-dark;
+    .carousel-text {
+        color: $gray-lighter;
+    }
+}
+
+//.inside {
+//    background: #ededed;
+//    background: -webkit-gradient(linear, left top, left bottom,color-stop(0%, #f4f4f4), color-stop(100%, #ededed));
+//    background: -moz-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
+//    background: -ms-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
+//}
+//.inside-full-height {
+//    /*
+//    // if you want to give content full height give him height: 100%;
+//    // with content full height you can't apply margins to the content
+//    // content full height does not work in ie http://stackoverflow.com/questions/27384433/ie-display-table-cell-child-ignores-height-100
+//    */
+//}
 
 body {
     background: #fafafa;
@@ -70,44 +96,44 @@ body {
 }
 
 /* wait autoprefixer update to allow simple generation of high pixel density media query */
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-    .hipster {
-        background: url("../images/hipster2x.png") no-repeat center top;
-        background-size: contain;
-    }
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    //.hipster {
+    //    background: url("../images/hipster2x.png") no-repeat center top;
+    //    background-size: contain;
+    //}
 }
 
 /* make sure browsers use the pointer cursor for anchors, even with no href */
 a:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
-
 
 /* start Password strength bar style */
 ul#strength {
-    display:inline;
-    list-style:none;
-    margin:0;
-    margin-left:15px;
-    padding:0;
-    vertical-align:2px;
+    display: inline;
+    list-style: none;
+    margin: 0;
+    margin-left: 15px;
+    padding: 0;
+    vertical-align: 2px;
 }
 
 .point:last {
-    margin:0 !important;
+    margin: 0 !important;
 }
+
 .point {
-    background:#DDD;
-    border-radius:2px;
-    display:inline-block;
-    height:5px;
-    margin-right:1px;
-    width:20px;
+    background: #DDD;
+    border-radius: 2px;
+    display: inline-block;
+    height: 5px;
+    margin-right: 1px;
+    width: 20px;
 }
+
 /* end Password strength bar style */
