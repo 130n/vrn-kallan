@@ -1,0 +1,122 @@
+{
+    "global": {
+        "title": "JHkallan",
+        "browsehappy": "Du använder en <strong>utdaterad</strong> webbläsare. Vänligen <a href=\"http://browsehappy.com/?locale=en\">uppgradera din webbläsare</a> för att förbättra din upplevelse.",
+        "menu": {
+            "home": "Hem",
+            "entities": {
+                "main": "Entities",
+                "additionalEntity": "JHipster will add additional entities here (do not translate!)"
+            },
+            "account": {
+                "main": "Konto",
+                "settings": "Inställningar",
+                "password": "Lösenord",
+                "sessions": "Sessioner",
+                "login": "Authenticera",
+                "logout": "Logga ut",
+                "register": "Registrera"
+            },
+            "admin": {
+                "main": "Administration",
+                "tracker": "User tracker",
+                "metrics": "Metrics",
+                "health": "Health",
+                "configuration": "Configuration",
+                "logs": "Logs",
+                "audits": "Audits",
+                "apidocs": "API",
+                "database": "Database"
+            },
+            "language": "Språk"
+        },
+        "form": {
+            "username": "Användarnamn",
+            "username.placeholder": "Ditt användarnamn",
+            "newpassword": "Nytt lösenord",
+            "newpassword.placeholder": "Nytt lösenord",
+            "confirmpassword": "Bekräfta lösenord",
+            "confirmpassword.placeholder": "Bekräfta lösenord",
+            "email": "Epost",
+            "email.placeholder": "Din epost"
+        },
+        "messages": {
+            "info": {
+                "authenticated": "Om du vill <a href=\"#/login\">authentisera</a>, du kan pröva default kontona:<br/>- Administrator (login=\"admin\" and password=\"admin\") <br/>- User (login=\"user\" and password=\"user\").",
+                "register": "Har du inget konto än? <a href=\"#/register\">Registrera ett nytt konto</a>"
+            },
+            "error": {
+                "dontmatch": "Bekräftelselösenordet stämmer inte!"
+            },
+            "validate": {
+                "newpassword": {
+                    "required": "Lösenord krävs.",
+                    "minlength": "Lösenordet måste vara minst 5 tecken långt.",
+                    "maxlength": "Lösenordet får max vara 50 tecken långt.",
+                    "strength": "Lösenordsstyrka:"
+                },
+                "confirmpassword": {
+                    "required": "Bekräftelselösenord krävs.",
+                    "minlength": "Bekräftelselösenord måste vara minst 5 tecken långt.",
+                    "maxlength": "Bekräftelselösenord får max vara 50 tecken långt."
+                },
+                "email": {
+                    "required": "Din epost krävs.",
+                    "invalid": "Din epost är inkorrekt.",
+                    "minlength": "Din epost måste vara minst 5 tecken långt.",
+                    "maxlength": "Din epost får max vara 50 tecken långt."
+                }
+            }
+        },
+        "field": {
+            "id": "ID"
+        }
+    },
+    "entity": {
+        "action": {
+            "back": "Tillbaka",
+            "cancel": "Avbryt",
+            "delete": "Ta bort",
+            "edit": "Redigera",
+            "save": "Spara",
+            "view": "Visa"
+        },
+        "detail": {
+            "field": "Fält",
+            "value": "Värde"
+        },
+        "delete": {
+            "title": "Bekräfta borttagning"
+        },
+        "validation": {
+            "required": "Detta fält är obligatoriskt.",
+            "minlength": "Det här fältet måste vara minst {{min}} tecken.",
+            "maxlength": "Det här fältet får vara högst {{max}} tecken.",
+            "min": "Det här fältet borde vara minst {{min}}.",
+            "max": "Det här fältet får vara högst {{max}}.",
+            "pattern": "Det här fältet ska matcha {{pattern}}.",
+            "number": "Det här fältet ska vara ett nummer.",
+            "datetimelocal": "Det här fältet ska innehålla datum och tid."
+        }
+    },
+    "footer": {
+        "organization": {
+            "organization": "Organisation",
+            "board": "Styrelse",
+            "debate": "Nytt debattformat",
+            "purpose": "Våra syften och mål",
+            "advisors": "Board of advisors",
+            "press": "Press"
+        },
+        "involment": {
+            "get": "Engagera dig",
+            "become": "Bli skribent",
+            "board": "Sitt i styrelsen",
+            "cooperate": "Samarbeta med oss"
+        },
+        "associations": {
+            "schools": "För skolor och föreningar",
+            "workshop": "Beställ en workshop etc"
+        }
+    }
+}
